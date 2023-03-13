@@ -5,7 +5,7 @@
 "types":
 	["command", "direct", "instruction", "reported"],
 	
-"total":"1234567890",
+"total-prayers":"1234567890",
 
 "data": {
 	"prayers":[
@@ -21,21 +21,20 @@
 		"book":"3 John",
 		"chapter":"1",
 		"verse":"2",
-		"reference":"3 John 1:2",
 		"verse-count":"1",
+		"reference":"3 John 1:2",
 		"asv":"Beloved, I pray that in all things thou mayest prosper and be in health, even as thy soul prospereth.",
 		"asv-length":"19",
 		"kjv":"Beloved, I wish above all things that thou mayest prosper and be in health, even as thy soul prospereth.",
 		"kjv-length":"19",
         "related": "null",
         "context": "null",
-		"interrupted":"false",
+		"break":"false",
 		"emulate":"true",
         "person": "1",
 		"next":"ID NUMBER PLUS ONE",
 		"previous":"ID NUMBER MINUS ONE",
-        "comment": "null",
-		"meta":"null"
+        "comment": "null"
 		},
 		{
 		"id":"9876543210",

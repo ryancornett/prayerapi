@@ -1,61 +1,556 @@
 {
-"updated":"2023-03-13T09:21:00.000Z",
+"updated":"2023-03-25",
 "categories":
-	["confession", "exhortation", "imprecation", "intercession", "lament", "other", "praise", "repentance", "supplication", "thanksgiving"],
+	["confession", "consecration", "imprecation", "intercession", "lament", "praise", "repentance", "supplication", "thanksgiving", "unknown"],
 "types":
 	["command", "direct", "instruction", "reported"],
-	
-"total-prayers":"1234567890",
-
+"total-prayers":"20",
 "data": {
-	"prayers":[
-		{
-		"id":"632",
-		"category":["intercession"],
-		"type":["reported"],
-		"testament":"new",
-		"title":"null",
-		"book":"3 John",
-		"chapter":"1",
-		"verse":"2",
-		"verse-count":"1",
-		"reference":"3 John 1:2",
-		"asv":"Beloved, I pray that in all things thou mayest prosper and be in health, even as thy soul prospereth.",
-		"asv-length":"19",
-		"kjv":"Beloved, I wish above all things that thou mayest prosper and be in health, even as thy soul prospereth.",
-		"kjv-length":"19",
-        "related": ["null"],
-        "context": "null",
-		"break":"false",
-		"emulate":"true",
-        "person": "1",
-		"next":"633",
-		"previous":"631",
-        "comment": "Translations are not in agreement as to whether this should be considered a prayer. Several translate the Greek 'euchomai' (Strong's 2172) to 'wish' or 'hope' instead of 'prayer.'"
-		},
-		{
-		"id":"633",
-		"category":[],
-		"type":[],
-		"testament":"new",
-		"title":"null",
-		"book":"",
-		"chapter":"",
-		"verse":"",
-		"verse-count":"",
-		"reference":"",
-		"asv":"",
-		"asv-length":"",
-		"kjv":"",
-		"kjv-length":"",
-		"related": [],
-		"context": "null",
-		"break":"false",
-		"emulate":"true",
-		"person": "1",
-		"next":"632",
-		"previous":"634",
-		"comment": "null"
-		}]
-	}
+	"genesis": {
+		"amount": "16",
+		"prayers": [
+			{
+			"id":"01-001",
+			"category":["unknown"],
+			"type":["reported"],
+			"chapter":"4",
+			"verse":"46",
+			"verse-count":"1",
+			"emulate":"true",
+			"person": "third-p",
+			"comment": "null"
+			},
+			{
+			"id":"01-002",
+			"category":["unknown"],
+			"type":["reported"],
+			"chapter":"12",
+			"verse":"8",
+			"verse-count":"1",
+			"emulate":"true",
+			"person": "third-s",
+			"comment": "null"
+			},
+			{
+			"id":"01-003",
+			"category":["unknown"],
+			"type":["reported"],
+			"chapter":"13",
+			"verse":"4",
+			"verse-count":"1",
+			"emulate":"true",
+			"person": "third-s",
+			"comment": "null"
+			},
+			{
+			"id":"01-004",
+			"category":["lament"],
+			"type":["direct"],
+			"chapter":"15",
+			"verse":"2-3",
+			"verse-count":"2",
+			"emulate":"true",
+			"person": "first-s",
+			"comment": "null"
+			},
+			{
+			"id":"01-005",
+			"category":["supplication"],
+			"type":["direct"],
+			"chapter":"15",
+			"verse":"8",
+			"verse-count":"1",
+			"emulate":"true",
+			"person": "first-s",
+			"comment": "null"
+			},
+			{
+			"id":"01-006",
+			"category":["supplication"],
+			"type":["direct"],
+			"chapter":"17",
+			"verse":"18",
+			"verse-count":"1",
+			"emulate":"false",
+			"person": "first-s",
+			"comment": "null"
+			},
+			{
+			"id":"01-007",
+			"category":["imprecation"],
+			"type":["reported"],
+			"chapter":"18",
+			"verse":"20-21",
+			"verse-count":"2",
+			"emulate":"true",
+			"person": "third-p",
+			"comment": "null"
+			},
+			{
+			"id":"01-008",
+			"category":["imprecation"],
+			"type":["reported"],
+			"chapter":"19",
+			"verse":"13",
+			"verse-count":"1",
+			"emulate":"true",
+			"person": "third-p",
+			"comment": "null"
+			},
+			{
+			"id":"01-009",
+			"category":["supplication"],
+			"type":["reported"],
+			"chapter":"20",
+			"verse":"17",
+			"verse-count":"1",
+			"emulate":"true",
+			"person": "third-s",
+			"comment": "null"
+			},
+			{
+			"id":"01-010",
+			"category":["unknown"],
+			"type":["reported"],
+			"chapter":"21",
+			"verse":"33",
+			"verse-count":"1",
+			"emulate":"true",
+			"person": "third-s",
+			"comment": "null"
+			},
+			{
+			"id":"01-011",
+			"category":["supplication"],
+			"type":["direct"],
+			"chapter":"24",
+			"verse":"12-14",
+			"verse-count":"3",
+			"emulate":"true",
+			"person": "first-s",
+			"comment": "null"
+			},
+			{
+			"id":"01-012",
+			"category":["supplication"],
+			"type":["direct", "reported"],
+			"chapter":"24",
+			"verse":"42-44",
+			"verse-count":"3",
+			"emulate":"true",
+			"person": "first-s",
+			"comment": "null"
+			},
+			{
+			"id":"01-013",
+			"category":["intercession"],
+			"type":["reported"],
+			"chapter":"25",
+			"verse":"21",
+			"verse-count":"1",
+			"emulate":"true",
+			"person": "third-s",
+			"comment": "null"
+			},
+			{
+			"id":"01-014",
+			"category":["supplication"],
+			"type":["direct", "reported"],
+			"chapter":"25",
+			"verse":"22",
+			"verse-count":"1",
+			"emulate":"true",
+			"person": "first-s",
+			"comment": "null"
+			},
+			{
+			"id":"01-015",
+			"category":["consecration", "thanksgiving"],
+			"type":["direct"],
+			"chapter":"28",
+			"verse":"22",
+			"verse-count":"1",
+			"emulate":"true",
+			"person": "first-s",
+			"comment": "null"
+			},
+			{
+			"id":"01-016",
+			"category":["thanksgiving", "supplication"],
+			"type":["direct"],
+			"chapter":"32",
+			"verse":"9-12",
+			"verse-count":"4",
+			"emulate":"true",
+			"person": "first-s",
+			"comment": "null"
+			}
+		]
+	},
+	"exodus": {
+		"amount" :"",
+		"prayers": [
+			{
+			"id":"02-001",
+			"category":[],
+			"type":[],
+			"chapter":"",
+			"verse":"",
+			"verse-count":"",
+			"emulate":"true",
+			"person": "",
+			"comment": "null"
+			}
+		]
+	},
+	"leviticus": {
+		"amount" :"",
+		"prayers": [
+			{
+			"id":"03-001",
+			"category":[],
+			"type":[],
+			"chapter":"",
+			"verse":"",
+			"verse-count":"",
+			"emulate":"true",
+			"person": "",
+			"comment": "null"
+			}
+		]
+	},
+	"numbers": {
+		"amount" :"",
+		"prayers": [
+			{
+			"id":"04-001",
+			"category":[],
+			"type":[],
+			"chapter":"",
+			"verse":"",
+			"verse-count":"",
+			"emulate":"true",
+			"person": "",
+			"comment": "null"
+			}
+		]
+	},
+	"deuteronomy": {
+		"amount" :"",
+		"prayers": [
+			{
+			"id":"05-001",
+			"category":[],
+			"type":[],
+			"chapter":"",
+			"verse":"",
+			"verse-count":"",
+			"emulate":"true",
+			"person": "",
+			"comment": "null"
+			}
+		]
+	},
+	"joshua": {
+		"amount" :"",
+		"prayers": [
+			{
+			"id":"06-001",
+			"category":[],
+			"type":[],
+			"chapter":"",
+			"verse":"",
+			"verse-count":"",
+			"emulate":"true",
+			"person": "",
+			"comment": "null"
+			}
+		]
+	},
+	"judges": {
+		"amount" :"",
+		"prayers": []
+	},
+	"ruth": {
+		"amount" :"",
+		"prayers": []
+	},
+	"1-samuel": {
+		"amount" :"",
+		"prayers": []
+	},
+	"2-samuel": {
+		"amount" :"",
+		"prayers": []
+	},
+	"1-kings": {
+		"amount" :"",
+		"prayers": []
+	},
+	"2-kings": {
+		"amount" :"",
+		"prayers": []
+	},
+	"1-chronicles": {
+		"amount" :"",
+		"prayers": []
+	},
+	"2-chronicles": {
+		"amount" :"",
+		"prayers": []
+	},
+	"ezra": {
+		"amount" :"",
+		"prayers": []
+	},
+	"nehemiah": {
+		"amount" :"",
+		"prayers": []
+	},
+	"esther": {
+		"amount" :"",
+		"prayers": []
+	},
+	"job": {
+		"amount" :"",
+		"prayers": []
+	},
+	"psalm": {
+		"amount" :"",
+		"prayers": [
+			{
+			"id":"19-*",
+			"category":["supplication"],
+			"type":["reported", "direct"],
+			"chapter":"116",
+			"verse":"1-4",
+			"verse-count":"4",
+			"emulate":"true",
+			"person": "first-s",
+			"comment": "null"
+			},
+			{
+			"id":"19-*",
+			"category":["thanksgiving"],
+			"type":["reported"],
+			"chapter":"116",
+			"verse":"13",
+			"verse-count":"1",
+			"emulate":"true",
+			"person": "first-s",
+			"comment": "In the preceding verse, the psalmist asks how he could thank God for all His goodness unto him."
+			},
+			{
+			"id":"19-*",
+			"category":[],
+			"type":[],
+			"chapter":"116",
+			"verse":"16-17",
+			"verse-count":"2",
+			"emulate":"true",
+			"person": "first-s",
+			"comment": "null"
+			}
+		]
+	},
+	"proverbs": {
+		"amount" :"",
+		"prayers": []
+	},
+	"ecclesiastes": {
+		"amount" :"",
+		"prayers": []
+	},
+	"song-of-solomon": {
+		"amount" :"",
+		"prayers": []
+	},
+	"isaiah": {
+		"amount" :"",
+		"prayers": []
+	},
+	"jeremiah": {
+		"amount" :"",
+		"prayers": []
+	},
+	"lamentations": {
+		"amount" :"",
+		"prayers": []
+	},
+	"ezekiel": {
+		"amount" :"",
+		"prayers": []
+	},
+	"daniel": {
+		"amount" :"",
+		"prayers": []
+	},
+	"hosea": {
+		"amount" :"",
+		"prayers": []
+	},
+	"joel": {
+		"amount" :"",
+		"prayers": []
+	},
+	"amos": {
+		"amount" :"",
+		"prayers": []
+	},
+	"obadiah": {
+		"amount" :"",
+		"prayers": []
+	},
+	"jonah": {
+		"amount" :"",
+		"prayers": []
+	},
+	"micah": {
+		"amount" :"",
+		"prayers": []
+	},
+	"nahum": {
+		"amount" :"",
+		"prayers": []
+	},
+	"habakkuk": {
+		"amount" :"",
+		"prayers": []
+	},
+	"zephaniah": {
+		"amount" :"",
+		"prayers": []
+	},
+	"haggai": {
+		"amount" :"",
+		"prayers": []
+	},
+	"zechariah": {
+		"amount" :"",
+		"prayers": []
+	},
+	"malachi": {
+		"amount" :"",
+		"prayers": []
+	},
+	"matthew": {
+		"amount" :"",
+		"prayers": []
+	},
+	"mark": {
+		"amount" :"",
+		"prayers": []
+	},
+	"luke": {
+		"amount" :"",
+		"prayers": []
+	},
+	"john": {
+		"amount" :"",
+		"prayers": []
+	},
+	"acts": {
+		"amount" :"",
+		"prayers": []
+	},
+	"romans": {
+		"amount" :"",
+		"prayers": []
+	},
+	"1-corinthians": {
+		"amount" :"",
+		"prayers": []
+	},
+	"2-corinthians": {
+		"amount" :"",
+		"prayers": []
+	},
+	"galatians": {
+		"amount" :"",
+		"prayers": []
+	},
+	"ephesians": {
+		"amount" :"",
+		"prayers": []
+	},
+	"philippians": {
+		"amount" :"",
+		"prayers": []
+	},
+	"colossians": {
+		"amount" :"",
+		"prayers": []
+	},
+	"1-thessalonians": {
+		"amount" :"",
+		"prayers": []
+	},
+	"2-thessalonians": {
+		"amount" :"",
+		"prayers": []
+	},
+	"1-timothy": {
+		"amount" :"",
+		"prayers": []
+	},
+	"2-timothy": {
+		"amount" :"",
+		"prayers": []
+	},
+	"titus": {
+		"amount" :"",
+		"prayers": []
+	},
+	"philemon": {
+		"amount" :"",
+		"prayers": []
+	},
+	"hebrews": {
+		"amount" :"",
+		"prayers": []
+	},
+	"james": {
+		"amount" :"",
+		"prayers": []
+	},
+	"1-peter": {
+		"amount" :"",
+		"prayers": []
+	},
+	"2-peter": {
+		"amount" :"",
+		"prayers": []
+	},
+	"1-john": {
+		"amount" :"",
+		"prayers": []
+	},
+	"2-john": {
+		"amount" :"",
+		"prayers": []
+	},
+	"3-john": {
+		"amount" :"",
+		"prayers": [
+			{
+			"id":"64-1",
+			"category":["intercession"],
+			"type":["reported"],
+			"chapter":"1",
+			"verse":"2",
+			"verse-count":"1",
+			"emulate":"true",
+			"person": "first-s",
+			"comment": "Translations are not in agreement as to whether this should be considered a prayer. Several translate the Greek 'euchomai' (Strong's 2172) to 'wish' or 'hope' instead of 'prayer.'"
+			}
+		]
+	},
+	"jude": {
+		"amount" :"",
+		"prayers": []
+	},
+	"revelation": {
+		"amount" :"",
+		"prayers": []
+	}}
 }
